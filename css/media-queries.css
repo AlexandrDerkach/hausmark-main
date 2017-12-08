@@ -1,0 +1,235 @@
+@media (max-width: 1050px) {
+    .cont {
+        max-width: 83.3333333%;
+    }
+    .main-logo {
+        margin-left: 0;
+    }
+    .quality_items-cont {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around
+    }
+    .quality_items {
+       margin-right: 0;
+    }
+    .customers-order-item-block {
+        -webkit-box-orient: vertical!important;
+        -webkit-box-direction: normal!important;
+            -ms-flex-direction: column!important;
+                flex-direction: column!important;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .info-itm-block{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1034px) {
+    #hausmark-teh h4 br {
+        display: none;
+    }
+}
+
+@media (max-width: 830px) {
+    .main-logo {
+        margin: 0 auto;
+        float: none;
+        margin-top: 12px;
+    }
+    nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .navbar {
+        margin: 10px auto 10px auto;
+        float: none;
+        display: none;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        width: 100%;
+    }
+    .fl-cont {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .navbar li {
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        margin: 0!important;
+    }
+    #touch-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 5%;
+    }
+    .lang-panel {
+        display: none;
+        float: none;
+        margin: 0 auto;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        padding: 0;
+    }
+    .lg-cont {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 906px) {
+    #hausmark-teh h4 {
+        line-height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+   
+    #main-banner h4{
+        margin-top: 0;
+    }
+    
+    #main-banner h3{
+        margin-top: 20%;
+    }
+    .social-li {
+        margin-left: 0;
+    }
+    .footer-navbar-flex-cont {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .footer-navbar-ul:nth-child(2) {
+        margin-left: 0px;
+    }
+    .footer-navbar-ul:nth-child(3) {
+        margin-left: 0px;
+    }
+    .footer-navbar-ul:first-child li:first-child {
+        margin-left: 0px;
+    }
+    .footer-navbar-ul:last-child li:first-child {
+        margin-left: 0px;
+    }
+    .footer-navbar-ul:after {
+        display: none;
+    }
+}
+
+@media (max-width: 675px) {
+    .footer-navbar-flex-cont {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .footer-navbar-flex-cont ul {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .quality_items {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    .footer-navbar-flex-cont {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .footer-navbar-flex-cont ul {
+        margin-top: 10px;
+    }
+    .follow-us li:first-child {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-logo {
+        margin: 12px 0 0 0;
+    }
+    #touch-menu {
+        top: 0;
+        padding: 6px;
+    }
+    .copyright{
+        padding-top: 4px;
+    }
+    .copyright a {
+        font-size: 0.500em;
+    }
+    
+    .copyright a:last-child {
+    margin-left: 1%;
+}
+    
+       .copyright a:first-child {
+    padding-right: 2%;
+}
+}
+
+
+@media (max-width: 500px) {
+    .img-itm-block{
+        max-width: 320px;
+        height: 320px;
+        background-size: contain;
+        
+    }
+    
+    .info-itm-block {
+        max-width: 320px;
+    }
+   
+}
